@@ -19,6 +19,10 @@ a {
     color: rgba(0,0,0,0.87);
 }
 
+.text-link:hover {
+    text-decoration: underline;
+}
+
 #google-apps {
     display: block;
     background-image: url('../imgs/i2_2ec824b0.png');
@@ -27,6 +31,10 @@ a {
     opacity: .55;
     height: 30px;
     width: 30px;
+}
+
+#google-apps:hover {
+    opacity: .85;
 }
 
 #log-in {
