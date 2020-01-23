@@ -1,0 +1,41 @@
+body, a, p {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    font-size: 13px;
+}
+
+#navbar {
+    padding: 16px 30px 0px 0px;
+}
+
+#navbar ul li {
+    display: block;
+    float: right;
+    padding: 0px 0px 0px 15px;
+    height: 30px;
+    line-height: 30px;
+    color: rgba(0,0,0,0.87);
+}
+
+#google-apps {
+    display: block;
+    background-image: url('../imgs/i2_2ec824b0.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    height: 30px;
+    width: 30px;
+}
+
+#log-in {
+    border-width: 1px;
+    border-color: #4285f4;
+    border-style: solid;
+    background-color:#4683ea;
+    border-radius: 2px;
+    padding: 6px 12px;
+    font-weight: bold;
+    color: white;
+}
