@@ -113,6 +113,7 @@ a {
 
 #search-buttons-box {
     padding-top: 18px;
+    height: 70px;
 }
 
 .search-button {
@@ -130,3 +131,22 @@ a {
     color: #222;
     border-color: #c6c6c6;
 }
+
+#other-languages {
+    font-size: 13px;
+    margin-bottom: 24px;
+}
+
+#other-languages span {
+    line-height: 28px;
+}
+
+#other-languages a {
+    color: rgb(26, 13, 171);
+}
+
+#other-languages a:hover {
+    text-decoration: underline rgb(26, 13, 171);
+}
+
+
