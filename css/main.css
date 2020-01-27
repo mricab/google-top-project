@@ -149,6 +149,50 @@ a {
     text-decoration: underline rgb(26, 13, 171);
 }
 
+/* Footers */
+
+.footers {
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100vw;
+    border-top-width: 1px;
+    border-top-color: #e4e4e4;
+    border-top-style: solid;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
+
+#sub-footer {
+    bottom: 41px;
+}
+
+.footers ul li {
+    display: block;
+    float: left;
+}
+
+.footer-text ul li a, .footer-text span{
+    color: rgba(0,0,0,0.54);
+}
+
+.footer-right-links {
+    float: right;
+}
+
+.li-left {
+    padding-right: 27px;
+}
+
+.li-right {
+    padding-left: 27px;
+}
+
+.footer-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 
 
