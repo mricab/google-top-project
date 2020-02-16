@@ -6,6 +6,17 @@ a {
     font-size: 13px;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/** Index.html **/
+
 /* Navbar */
 
 #navbar {
@@ -26,7 +37,7 @@ a {
     text-decoration: underline;
 }
 
-#google-apps {
+.google-apps {
     display: block;
     background-image: url('../imgs/i2_2ec824b0.png');
     background-size: 528px 68px;
@@ -36,11 +47,11 @@ a {
     width: 30px;
 }
 
-#google-apps:hover {
+.google-apps:hover {
     opacity: .85;
 }
 
-#log-in {
+.log-in {
     border-width: 1px;
     border-color: #4285f4;
     border-style: solid;
@@ -62,7 +73,7 @@ a {
     padding-top: 109px;
 }
 
-#search-box {
+.search-box {
     width: 582px;
     background: #fff;
     border: 1px solid #dfe1e5;
@@ -70,7 +81,7 @@ a {
     height: 44px;
 }
 
-#search-box:hover {
+.search-box:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
@@ -82,14 +93,14 @@ a {
     line-height: 34px;
 }
 
-#search-icon-box {
+.search-icon-box {
     display: flex;
     padding-right: 13px;
     align-items: center;
 
 }
 
-#search-icon {
+.search-icon {
     margin-top: -3px;
     height: 20px;
     width: 20px;
@@ -98,13 +109,13 @@ a {
     color: #9AA0A6;
 }
 
-#search-icon svg {
+.search-icon svg {
     height: 100%;
     width: 100%;
 
 }
 
-#textarea {
+.textarea {
     display: flex;
     width: 517px;
     border: transparent;
@@ -193,6 +204,76 @@ a {
     padding-right: 30px;
 }
 
+/** Search.html **/
 
+/* Search header */
+.bar-li {
+    display: block;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+}
 
+#search-header {
+    margin-top: 15px;
+    padding: 0px 30px;
+}
 
+#search-logo {
+    display: block;
+    background-image: url('../imgs/i2_2ec824b0.png');
+    background-size: 528px 68px;
+    background-position: 0px -36px;
+    width: 90px;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 28px;
+}
+
+#sb-search-pg {
+    width: 640px;
+}
+
+#ta-search-pg {
+    padding-left: 16px;
+    width: 570px;
+}
+
+#sib-search-pg {
+    width: 44px;
+    padding: 0 13px 0 0;
+    background: none;
+    border: none;
+    font-size: 100%;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#si-search-pg {
+    height: 24px;
+    width: 24px;
+    color: #4285f4;
+}
+
+#ga-search-pg {
+    background-position: -125px -31px;
+    padding: 7px;
+    margin-top: 2px;
+}
+
+#ga-search-pg:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+
+#log-in-search-pg {
+    margin-left: 12px;
+    padding: 9px 23px;
+    font-weight: normal;
+    background: #2b7de9;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+}

@@ -4,8 +4,33 @@
         <title>The Odin Project - Buscar con Google</title>
         <link rel="icon" href="imgs/favicon.ico" type="image/icon type">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-
+        <div id="search-header">
+            <ul class="left">
+                <li class="bar-li"><a href="./index.html" id="search-logo"></a></li>
+                <li class="bar-li">
+                    <form id="search-form" action="search.html" method="POST">
+                        <div class="search-box" id="sb-search-pg">
+                            <div id="search-box-elements">
+                                <input name="query" class="textarea" id="ta-search-pg" type="text" value="The Odin Project">
+                                <button type="submit" class="search-icon-box" id="sib-search-pg">
+                                    <span class="search-icon" id="si-search-pg">
+                                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                                    </span>
+                                </button>                                
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+            <ul class="right">
+                <li class="bar-li"><a href="https://www.google.com.bo/intl/es-419/about/products?tab=wh" class="google-apps" id="ga-search-pg"></a></li>
+                <li class="bar-li"><a href="https://accounts.google.com/ServiceLogin?hl=es-419&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl" class="log-in" id="log-in-search-pg">Iniciar sesión</a></li>                
+            </ul>
+        </div>
     </body>
+
+
 </html>
